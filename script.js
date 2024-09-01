@@ -1,10 +1,6 @@
 const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
-// const searchBar = document.querySelector('.search-bar');
-// const searchInput = document.querySelector('#search-input');
-// const searchButton = document.querySelector('#search-btn');
-
 if (bar) {
     bar.addEventListener('click', () => {
         nav.classList.add('active');
